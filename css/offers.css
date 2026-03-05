@@ -6,6 +6,8 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  margin-bottom: 24px;
+  background-color: black;
 }
 
 .card header {
@@ -13,7 +15,6 @@
   background-color: transparent;
   position: static;
   padding: 0;
-  margin-bottom: 24px;
 }
 
 .card header p {
