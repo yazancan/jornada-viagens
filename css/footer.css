@@ -1,0 +1,21 @@
+.footer-image{
+    height: 400px;
+    width: 100%;
+    background: url(../img/footer-image-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px){
+    .footer-image{
+        background: url(../img/footer-image-tablet.png) no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer-image{
+        background: url(../img/footer-image-desk.png) no-repeat;
+        background-size: contain;
+        height: 600px;
+    }
+}
