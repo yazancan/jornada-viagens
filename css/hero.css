@@ -21,6 +21,15 @@
   text-align: center;
 }
 
+/* PACOTES DE VIAGEM */
+.hero-travel-packages .hero-img-travel-packages{
+  height: 460px;
+  width: 100%;
+  background: url(../img/travel-packages/japan-bg-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: 70% center;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
