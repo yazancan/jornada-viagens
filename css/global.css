@@ -48,7 +48,8 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
@@ -76,6 +77,7 @@ section.hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 0 0 24px;
 }
 
 .content-text {
