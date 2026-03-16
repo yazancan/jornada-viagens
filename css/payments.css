@@ -1,4 +1,5 @@
-.payments .image-gallery {
+.payments .image-gallery,
+.payments-travel-packages .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -22,6 +23,47 @@
 .payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
+
+/* PACOTES DE VIAGEM */
+.payments-travel-packages .content-container .text-content .content-title{
+  width: 312px;
+  height: 46px;
+  font-size: 40px;
+}
+
+.payments-travel-packages .content-container .text-content .payment-method{
+  width: 312px;
+  height: 46px;
+  font-size: 28px;
+  margin: 24px 0;
+}
+
+.payments-travel-packages .content-container .button{
+  margin: 24px 0;
+}
+
+.payments-travel-packages .content-container .image-gallery .image.one {
+  background: url(../img/travel-packages/gallery1-payments-mobile.png) no-repeat;
+  background-size: cover;
+  width: 144px;
+  height: 254px;
+}
+.payments-travel-packages .content-container .image-gallery .image.two {
+  background: url(../img/travel-packages/gallery2-payments-mobile.png) no-repeat;
+  background-size: cover;
+  width: 144px;
+  height: 254px;
+}
+.payments-travel-packages .content-container .image-gallery .image.three {
+  background: url(../img/travel-packages/gallery3-payments-mobile.png) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 182px;
+}
+.payments-travel-packages .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
 
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
