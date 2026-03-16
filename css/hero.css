@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero-travel-packages .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -62,6 +63,13 @@
   margin: 16px 0 32px;
 }
 
+.bottom-hero-travel-packages .hero-img{
+  background: url(../img/travel-packages/bg-bottom-hero-travel-packages-mobile.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -99,6 +107,12 @@
     height: 192px;
     line-height: 1.5;
   }
+
+  .bottom-hero-travel-packages .hero-img{
+  background: url(../img/travel-packages/bg-bottom-hero-travel-packages-tablet.png) no-repeat;
+  background-size: cover;
+  height: 400px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -127,11 +141,16 @@
   }
 
   .hero-travel-packages .section-title {
-    width: 100%px;
+    width: 100%;
     min-height: 202px;
     padding: 158px 740px 158px 120px;
   }
 
+  .bottom-hero-travel-packages .hero-img{
+  background: url(../img/travel-packages/bg-bottom-hero-travel-packages-desktop.png) no-repeat;
+  background-size: cover;
+  height: 600px;
+}
 }
 
 
