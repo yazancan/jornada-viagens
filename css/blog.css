@@ -1,0 +1,30 @@
+.blog-content p {
+  width: 312px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.blog-content h3{
+    font-size: 28px;
+}
+
+.blog-content .img-item,
+.blog-content .accommodation .small-img-item {
+  margin-bottom: 32px;
+}
+
+.blog-content .arrival .img-item {
+  background: url(../img/blog/tokyo-blog-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+}
+
+.blog-content .accommodation .img-item {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 8px;
+}
