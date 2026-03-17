@@ -26,6 +26,11 @@
   margin-top: 24px;
 }
 
+/* PACOTES DE VIAGEM */
+.navigation-menu .list-links .active {
+  text-decoration: underline;
+}
+
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
