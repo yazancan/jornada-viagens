@@ -246,11 +246,11 @@
 .hero-contacts .section-title {
     width: 100%;
     min-height: 680px;
-    padding: 350px 1300px 158px 120px;
+    padding: 350px 900px 158px 120px;
   }
 
 .hero-contacts .section-title .content-text {
-    font-size: 62px;
+    font-size: 52px;
     height: 202px;
     line-height: 1.5;
 }
