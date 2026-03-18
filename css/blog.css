@@ -1,5 +1,5 @@
 .blog-content p {
-  width: 312px;
+  width: 100%;
   line-height: 1.5;
   margin-bottom: 24px;
   font-size: 20px;
@@ -27,4 +27,47 @@
   width: 100%;
   height: 300px;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-content .arrival{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .blog-content .arrival p{
+    width: 312px;
+  }
+
+  .blog-content .arrival .img-item {
+  background: url(../img/blog/tokyo-blog-mobile.png) no-repeat;
+  background-size: cover;
+  width: 312px;
+}
+
+.blog-content .accommodation .img-item {
+  background: url(../img/tokyo--tablet-desk.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .blog-content .arrival p{
+    width: 588px;
+  }
+
+  .blog-content .arrival .img-item {
+  background: url(../img/blog/tokyo-blog-desktop.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 588px;
+}
+
+.blog-content .accommodation .img-item {
+  background: url(../img/tokyo--tablet-desk.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 }
