@@ -49,9 +49,10 @@ section {
 }
 
 section.hero,
-section.bottom-hero, 
+section.bottom-hero,
 section.hero-travel-packages,
-section.bottom-hero-travel-packages{
+section.bottom-hero-travel-packages,
+section.hero-blog {
   width: 100%;
   margin: 0;
 }
