@@ -256,6 +256,14 @@
     padding: 88px 160px;
   }
 
+  /* BLOG */
+  .hero-blog .hero-img-blog {
+    height: 720px;
+    width: 100%;
+    background: url(../img/blog/bg-hero-blog-desktop-big.jpg) no-repeat;
+    background-position: center;
+  }
+
   /* CONTATOS */
   .hero-contacts .hero-img-contacts {
     height: 1000px;
