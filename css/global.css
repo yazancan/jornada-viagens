@@ -55,7 +55,8 @@ section.bottom-hero,
 section.hero-travel-packages,
 section.bottom-hero-travel-packages,
 section.hero-blog,
-section.hero-contacts {
+section.hero-contacts,
+section.bottom-hero-contacts {
   width: 100%;
   margin: 0;
 }

@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero-contacts .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -97,6 +98,12 @@
   margin-bottom: 88px;
 }
 
+.bottom-hero-contacts .hero-img {
+  background: url(../img/contacts/bg-bottom-hero-contacts-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -157,18 +164,26 @@
   }
 
   /* CONTATOS */
-.hero-contacts .hero-img-contacts {
-  height: 620px;
-  width: 100%;
-  background: url(../img/contacts/bg-hero-contacts-tablet.png) no-repeat;
-  background-size: cover;
-  margin-bottom: 88px;
-}
+  .hero-contacts .hero-img-contacts {
+    height: 620px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-tablet.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
 
-.hero-contacts .section-title {
+  .hero-contacts .section-title {
     width: 100%;
     min-height: 303px;
     padding: 182px 94px;
+  }
+
+  .bottom-hero-contacts .hero-img {
+    background: url(../img/contacts/bg-bottom-hero-contacts-tablet.png)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
   }
 }
 
@@ -219,14 +234,21 @@
     height: 600px;
   }
 
-   /* CONTATOS */
-.hero-contacts .hero-img-contacts {
-  height: 620px;
-  width: 100%;
-  background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
-  background-size: cover;
-  margin-bottom: 88px;
-}
+  /* CONTATOS */
+  .hero-contacts .hero-img-contacts {
+    height: 620px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
+
+  .bottom-hero-contacts .hero-img {
+    background: url(../img/contacts/bg-bottom-hero-contact-desktop.png)
+      no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -235,37 +257,36 @@
   }
 
   /* CONTATOS */
-.hero-contacts .hero-img-contacts {
-  height: 1000px;
-  width: 100%;
-  background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
-  background-size: cover;
-  margin-bottom: 88px;
-}
+  .hero-contacts .hero-img-contacts {
+    height: 1000px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
 
-.hero-contacts .section-title {
+  .hero-contacts .section-title {
     width: 100%;
     min-height: 680px;
     padding: 350px 900px 158px 120px;
   }
 
-.hero-contacts .section-title .content-text {
+  .hero-contacts .section-title .content-text {
     font-size: 52px;
     height: 202px;
     line-height: 1.5;
+  }
+  .hero-contacts .section-title h1 {
+    color: var(--text-secondary-color);
+    font-size: 74px;
+    text-align: left;
+    margin: 0;
+  }
+  .hero-contacts .section-title hr {
+    width: 300px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+  }
 }
-.hero-contacts .section-title h1 {
-  color: var(--text-secondary-color);
-  font-size: 74px;
-  text-align: left;
-  margin: 0;
-}
- .hero-contacts .section-title hr {
-  width: 300px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  border: none;
-  margin: 16px 0 32px;
-}
-}
-

@@ -45,7 +45,12 @@
         <nav>
           <ul class="list-links">
             <li>
-              <a href="blog-da-jornada.html" target="_blank" title="Acessar Blog">Blog</a>
+              <a
+                href="blog-da-jornada.html"
+                target="_blank"
+                title="Acessar Blog"
+                >Blog</a
+              >
             </li>
             <li>
               <a
@@ -94,32 +99,108 @@
           </p>
         </div>
         <form class="form-content" action="#" method="get">
-            <div class="form-hover" >
-                <label class="design-label" for="name"></label>
-                <input id="name" type="text" name="userName" placeholder="Seu Nome" required>
-                <hr>
+          <div class="input-group">
+            <label class="sr-only" for="name">Nome</label>
+            <input
+              id="name"
+              type="text"
+              name="userName"
+              placeholder="Seu nome"
+              required
+            />
+            <hr />
+          </div>
+
+          <div class="tel-email">
+            <div class="input-group">
+              <label class="sr-only" for="phoneNumber">Telefone</label>
+              <input
+                id="phoneNumber"
+                type="tel"
+                name="userPhoneNumber"
+                pattern="[0-9]{11}"
+                placeholder="Telefone"
+              />
+              <hr />
             </div>
-            <div class="form-hover" id="form-hover" >
-                <label class="design-label" for="phoneNumber"></label>
-                <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="Telefone">
-                <hr>
+
+            <div class="input-group">
+              <label class="sr-only" for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="userEmail"
+                placeholder="Email"
+                required
+              />
+              <hr />
             </div>
-            <div class="form-hover" >
-                <label class="design-label" for="email"></label>
-                <input id="email" type="email" name="userEmail" placeholder="Email" required>
-                <hr>
-            </div>
-            <div class="form-hover" >
-                <label class="design-label" for="name"></label>
-                <input id="name" type="text" name="userName" placeholder="Assunto">
-                <hr>
-            </div>
-            <div class="form-hover" >
-                <label class="text-area" for="comment">Assunto</label>
-                <textarea name="userComment" id="comment" ></textarea>
-            </div>
-                <a href="#" class="button">Enviar!</a>
+          </div>
+
+          <div class="input-group">
+            <label class="sr-only" for="subject">Assunto</label>
+            <input
+              id="subject"
+              type="text"
+              name="userSubject"
+              placeholder="Assunto"
+            />
+            <hr />
+          </div>
+
+          <div class="textarea-group">
+            <label class="text-area" for="comment">Assunto</label>
+            <textarea name="userComment" id="comment"></textarea>
+          </div>
+
+          <a href="#" class="button">Enviar!</a>
+        </form>
+      </section>
+      <section class="bottom-hero-contacts">
+        <div class="hero-img"></div>
       </section>
     </main>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <img
+          src="img/logo-footer.png"
+          alt="Logo Jornada Viagens na cor branca"
+        />
+        <p>
+          Horário de atendimento: 08h - 20h <br />
+          (Segunda a Sábado)
+        </p>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+      </div>
+      <div class="footer-social">
+        <p>Acesse nossas redes:</p>
+        <a
+          href="#"
+          target="_blank"
+          title="Entre em contato através do WhatsApp do Jornada Viagens"
+        >
+          <img
+            src="img/icone-whatsapp.png"
+            alt="icone do WhatsApp na cor branca"
+          />
+        </a>
+        <a
+          href="#"
+          target="_blank"
+          title="Acesse o Instagram do Jornada Viagens"
+        >
+          <img
+            src="img/icone-instagram.png"
+            alt="icone do Instagram na cor branca"
+          />
+        </a>
+        <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens">
+          <img
+            src="img/icone-twitter.png"
+            alt="icone do Twitter na cor branca"
+          />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
