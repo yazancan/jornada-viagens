@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero-contacts .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -32,7 +33,8 @@
 }
 
 .hero-blog .section-title,
-.hero-travel-packages .section-title {
+.hero-travel-packages .section-title,
+.hero-contacts .section-title {
   width: 100%;
   min-height: 330px;
   display: flex;
@@ -43,7 +45,8 @@
 }
 
 .hero-blog .section-title h1,
-.hero-travel-packages .section-title h1 {
+.hero-travel-packages .section-title h1,
+.hero-contacts .section-title h1 {
   color: var(--text-secondary-color);
   font-size: 48px;
   text-align: left;
@@ -51,14 +54,16 @@
 }
 
 .hero-blog .section-title .content-text,
-.hero-travel-packages .section-title .content-text {
+.hero-travel-packages .section-title .content-text,
+.hero-contacts .section-title .content-text {
   color: var(--text-secondary-color);
   margin: 0;
   line-height: 32px;
 }
 
 .hero-blog .section-title hr,
-.hero-travel-packages .section-title hr {
+.hero-travel-packages .section-title hr,
+.hero-contacts .section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -81,6 +86,22 @@
     no-repeat;
   background-size: cover;
   height: 400px;
+}
+
+/* CONTATOS */
+.hero-contacts .hero-img-contacts {
+  height: 460px;
+  width: 100%;
+  background: url(../img/contacts/bg-hero-contacts-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: 30%;
+  margin-bottom: 88px;
+}
+
+.bottom-hero-contacts .hero-img {
+  background: url(../img/contacts/bg-bottom-hero-contacts-mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,13 +128,14 @@
     background-position: center;
   }
   .hero-blog .section-title {
-    width: 100%px;
+    width: 100%;
     min-height: 303px;
     padding: 158px 94px;
   }
 
   .hero-blog .section-title .content-text,
-  .hero-travel-packages .section-title .content-text {
+  .hero-travel-packages .section-title .content-text,
+  .hero-contacts .section-title .content-text {
     font-size: 32px;
     height: 192px;
     line-height: 1.5;
@@ -140,6 +162,29 @@
     background-size: cover;
     height: 400px;
   }
+
+  /* CONTATOS */
+  .hero-contacts .hero-img-contacts {
+    height: 620px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-tablet.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
+
+  .hero-contacts .section-title {
+    width: 100%;
+    min-height: 303px;
+    padding: 182px 94px;
+  }
+
+  .bottom-hero-contacts .hero-img {
+    background: url(../img/contacts/bg-bottom-hero-contacts-tablet.png)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -158,12 +203,12 @@
   }
 
   /* BLOG */
-.hero-blog .hero-img-blog {
+  .hero-blog .hero-img-blog {
     height: 620px;
     width: 100%;
     background: url(../img/blog/bg-hero-blog-desktop.jpg) no-repeat;
     background-position: center;
-}
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -175,7 +220,8 @@
   }
 
   .hero-blog .section-title,
-  .hero-travel-packages .section-title {
+  .hero-travel-packages .section-title,
+  .hero-contacts .section-title {
     width: 100%;
     min-height: 202px;
     padding: 158px 740px 158px 120px;
@@ -187,10 +233,60 @@
     background-size: cover;
     height: 600px;
   }
+
+  /* CONTATOS */
+  .hero-contacts .hero-img-contacts {
+    height: 620px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
+
+  .bottom-hero-contacts .hero-img {
+    background: url(../img/contacts/bg-bottom-hero-contact-desktop.png)
+      no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  /* CONTATOS */
+  .hero-contacts .hero-img-contacts {
+    height: 1000px;
+    width: 100%;
+    background: url(../img/contacts/bg-hero-contacts-desktop.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+  }
+
+  .hero-contacts .section-title {
+    width: 100%;
+    min-height: 680px;
+    padding: 350px 900px 158px 120px;
+  }
+
+  .hero-contacts .section-title .content-text {
+    font-size: 52px;
+    height: 202px;
+    line-height: 1.5;
+  }
+  .hero-contacts .section-title h1 {
+    color: var(--text-secondary-color);
+    font-size: 74px;
+    text-align: left;
+    margin: 0;
+  }
+  .hero-contacts .section-title hr {
+    width: 300px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
   }
 }

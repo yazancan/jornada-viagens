@@ -1,0 +1,149 @@
+.formulary p {
+  height: 252px;
+  width: 100%;
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.formulary .form-content input,
+.formulary .form-content textarea {
+  width: 100%;
+  height: 32px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: var(--text-form-primary-color);
+  border: none;
+  margin: 0;
+}
+
+.formulary .form-content label {
+  width: 100%;
+  height: 32px;
+  font-size: 20px;
+  color: var(--text-form-primary-color);
+  margin-bottom: 8px;
+}
+
+.formulary .form-content hr {
+  width: 100%;
+  height: 3px;
+  background-color: var(--text-form-secondary-color);
+  border: none;
+  margin-bottom: 64px;
+}
+
+.formulary .form-content textarea {
+  width: 100%;
+  height: 90px;
+  border: 1px solid var(--text-form-secondary-color);
+  border-radius: 8px;
+  margin: 8px 0 32px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.formulary .form-content a.button {
+  width: 312px;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.input-group input:focus,
+.input-group input:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.input-group:hover hr,
+.input-group:focus-within hr {
+  background-color: var(--secondary-color);
+}
+
+.input-group:hover input::placeholder,
+.input-group:focus-within input::placeholder {
+  color: var(--text-primary-color);
+}
+
+.textarea-group:hover textarea,
+.textarea-group:focus-within textarea {
+  border-color: var(--secondary-color);
+}
+
+.textarea-group:hover label,
+.textarea-group:focus-within label {
+  color: var(--text-primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .formulary p {
+    height: 160px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 56px;
+  }
+
+  .formulary .form-content a.button {
+    margin: 0 184px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formulary .form-content a.button {
+    margin: 0 294px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .formulary .form-content {
+    width: 790px;
+    margin: 0 205px;
+  }
+
+  .formulary .form-content input,
+  .formulary .form-content textarea {
+    width: 790px;
+  }
+
+  .formulary .form-content .tel-email {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .formulary .form-content .tel-email div {
+    width: 386px;
+  }
+
+  .formulary .form-content textarea {
+    width: 790px;
+    height: 90px;
+    border: 1px solid var(--text-form-secondary-color);
+    border-radius: 8px;
+    margin: 8px 0 32px;
+  }
+
+  .formulary .form-content a.button {
+    margin: 0 238px;
+  }
+}
